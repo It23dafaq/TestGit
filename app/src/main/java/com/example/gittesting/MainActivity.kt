@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
         TestNewBranch()
     }
      fun TestNewBranch(){
-        val test = "Test"
-        print("test")
+        val tes2 = "Test"
+        print(tes2)
 
     }
 }
