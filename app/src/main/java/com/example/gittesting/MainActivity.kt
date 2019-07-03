@@ -2,6 +2,7 @@ package com.example.gittesting
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import java.util.concurrent.atomic.DoubleAdder
 
 class MainActivity : AppCompatActivity() {
 
@@ -13,9 +14,13 @@ class MainActivity : AppCompatActivity() {
         TestNewBranch()
     }
      fun TestNewBranch(){
-        val test = "Test"
-        print("test")
-         print("all good")
+        val test1 = "Test"
+        print("test1 = "+test1)
+         print(test1)
+         MergeConflic(test1)
 
+    }
+    fun MergeConflic(vamos : String){
+          print(vamos)
     }
 }
